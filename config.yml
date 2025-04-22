@@ -12,7 +12,7 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Template Key", name: "templateKey", widget: "string", default: "cake-page" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Flavor", name: "flavor", widget: "select", options: ["Traditional", "Strawberry", "Chocolate Fudge", "Ferrero Rocher"] }
+      - { label: "Price", name: "price", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
